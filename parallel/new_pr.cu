@@ -64,6 +64,7 @@ __global__ void calculateSumOfOutDegree(float * sumOfOutDegree, float* Graph)
     {
 		// printf("THIS IS INSIDE i : %d\n", i);
         // sumOfOutDegree[i]  = 0;
+		
 		s = 0;
         for (int j = 0; j < numberOfVertex ; ++j)
         {
